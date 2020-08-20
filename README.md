@@ -1,2 +1,2 @@
-# Deduplikacja_w_kolumnie_i_miedzy_kolumnami
+# Deduplikacja-w-kolumnie-i-miedzy-kolumnami
 
