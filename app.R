@@ -215,7 +215,7 @@ server <- function(input, output) {
              za zdublowane. <br>
              4. Plik po deduplikacji należy pobrać. <br> <br>
              Jako przykład rozważmy plik składający się z pięciu kolumn: trzy pierwsze z numerów telefonów, dalej: kolumny z nazwą i kolumny mówiącej o źródle pochodzenia rekordu. 
-             Przypuśmy, że do deduplikacji wybrano wszystkie kolumny z telefonami, a jako kolumny, które zostaną rozszerzone, wybrano kolumny z telefonami oraz 
+             Przypuśćmy, że do deduplikacji wybrano wszystkie kolumny z telefonami, a jako kolumny, które zostaną rozszerzone, wybrano kolumny z telefonami oraz 
              kolumnę z nazwą. Następnie załóżmy, że rekord pierwszy i drugi okazał się zdublowany. W wyniku deduplikacji rekord pierwszy i drugi będą miały
              nastepującą postać w wynikowej bazie: zostaną zamienione na jeden rekord taki, że wszystkie niepowtarzające się numery telefonów ze zdublowanych
              rekordów zostaną zachowane, a także zostaną zachowane obie nazwy tych rekordów, o ile nie były powtórzone - wszystkie numery telefonów oraz  wszystkie nazwy zostaną podzielone na osobne kolumny. 
